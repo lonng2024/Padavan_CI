@@ -1,4 +1,4 @@
-name: Build vb1980's kernal4.4 Padavan for multi targets
+name: Build lonng2024's kernal4.4 Padavan for multi targets
 
 on:
   workflow_dispatch:
@@ -30,7 +30,7 @@ env:
   DICT_FILE: ./user/www/dict/CN.dict
   TIME_ZONE: Asia/Shanghai
   FIRMWARE_DATEPREFIX: $(date +"%Y%m%d")
-  FIRMWARE_AUTHOR: vb1980
+  FIRMWARE_AUTHOR: lonng2024
   FIRMWARE_PATH: /opt/firmwares
 jobs:
   build:
